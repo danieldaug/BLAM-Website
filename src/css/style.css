@@ -1,0 +1,35 @@
+body{
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+.navbutton{
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    color: #000000;
+}
+.navbutton:hover{
+    background-color: rgb(253, 238, 213);
+    color: rgb(35, 8, 8);
+    transition: 500ms;
+}
+#buttonlist{
+    display: flex;
+    list-style-type: none;
+}
+#cornerlogo{
+    width: 20%;
+    float: left;
+}
+#topcontainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin: auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+    
+}
