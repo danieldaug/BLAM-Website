@@ -3,11 +3,10 @@ body{
     align-items: center; /* Center content vertically */
 }
 .navbutton{
-    flex: 1;
+    flex: 10;
     padding: 30px;
     background-color: #ffffff;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 5px;
     font-size: 15px;
     color: #000000;
 }
@@ -17,19 +16,40 @@ body{
     transition: 500ms;
 }
 #buttonlist{
-    display: flex;
+    flex: 100;
+    float:right;
     list-style-type: none;
 }
 #cornerlogo{
-    width: 20%;
+    padding: auto;
+    margin: auto;
+    width: 25%;
     float: left;
+    text-align: center;
+}
+#headlogo{
+    width: 25%;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
 }
 #topcontainer{
-    display: flex;
-    align-items: center;
     text-align: center;
     width: auto;
-    margin: auto; /* Center the container horizontally */
-    padding: 20px; /* Add padding to the container */
-    
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+}
+.homecontent{
+    text-align: center;
+}
+#title{
+    margin-top:0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#subtitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    float: right;
 }
