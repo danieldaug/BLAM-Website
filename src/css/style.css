@@ -42,26 +42,44 @@ body{
 }
 .homecontent{
     text-align: center;
+    margin:auto;
 }
 #title{
     margin-top:0;
+    margin-bottom:0;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
     color: #ffffff;
     letter-spacing: 1px;
     text-shadow: 
-        -2px -2px 0 #000,  
-        2px -2px 0 #000,
-        -2px 2px 0 #000,
-        2px 2px 0 #000;
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 #subtitle{
+    margin-top:0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ffffff;
+    font-style: italic;
     text-shadow: 
-        -2px -2px 0 #000,  
-        2px -2px 0 #000,
-        -2px 2px 0 #000,
-        2px 2px 0 #000;
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+.socialcontent{
+    text-align: center;
+    margin:auto;
+}
+#sociallist{
+    list-style-type: none;
+    padding: 0;
+}
+.sociallogos{
+    width:8%;
+    margin: 2px;
+    text-decoration:none;
 }
 footer{
     float: right;
