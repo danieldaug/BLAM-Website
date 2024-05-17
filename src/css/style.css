@@ -9,11 +9,13 @@ body{
     margin: 5px;
     font-size: 15px;
     color: #000000;
+    transition: 500ms;
 }
 .navbutton:hover{
     background-color: rgb(253, 238, 213);
     color: rgb(35, 8, 8);
     transition: 500ms;
+    font-size: 17px;
 }
 #buttonlist{
     flex: 100;
@@ -91,6 +93,13 @@ body{
     width:8%;
     margin: 2px;
     text-decoration:none;
+    transition: 300ms;
+}
+.sociallogos:hover{
+    width:9%;
+    margin: 2px;
+    text-decoration:none;
+    transition: 300ms;
 }
 footer{
     float: right;
