@@ -138,3 +138,9 @@ footer{
         -1px 1px 0 #000,
         1px 1px 0 #000;
 }
+.pieces{
+    text-align: center;
+}
+.artpiece{
+    width: 500px;
+}
