@@ -18,3 +18,22 @@ document.addEventListener("DOMContentLoaded", () => {
       element.style.width = randomWidth + 'px';
   });
 });
+
+window.onload = function() {
+  // Get the current filename from the URL
+  var path = window.location.pathname;
+  var page = path.split("/").pop();
+
+  // Define the mapping of filenames to new URLs
+  var urlMapping = {
+      "index.html": "/home",
+      "gallery.html": "/gallery",
+      "store.html": "/storenotice",
+      "contact.html": "/contact"
+  };
+
+  // Change the URL based on the current page
+  if (urlMapping[page]) {
+      history.pushState(null, "", urlMapping[page]);
+  }
+};
