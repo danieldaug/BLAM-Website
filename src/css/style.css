@@ -2,6 +2,10 @@ body{
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
 }
+footer{
+    float: right;
+}
+/*      Navigation Bar      */
 .navbutton{
     flex: 10;
     padding: 30px;
@@ -29,6 +33,8 @@ body{
     float: left;
     text-align: center;
 }
+
+/*      Home Page Welcome and Socials     */
 #headlogo{
     width: 25%;
     margin-left: 100px;
@@ -71,16 +77,6 @@ body{
         -1px 1px 0 #000,
         1px 1px 0 #000;
 }
-#descrip{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #ffffff;
-    font-style: italic;
-    text-shadow: 
-        -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-}
 .socialcontent{
     text-align: center;
     margin:auto;
@@ -101,35 +97,13 @@ body{
     text-decoration:none;
     transition: 300ms;
 }
-footer{
-    float: right;
-}
 
-
+/*      Gallery Text and Images     */
 .gallerycontent{
     text-align: center;
 }
-.storecontent{
-    text-align: center;
-}
-.contactcontent{
-    text-align: center;
-}
-
-#address{
+#descrip{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: #ffffff;
-    font-style: italic;
-    text-shadow: 
-        -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-}
-#notice{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
     color: #ffffff;
     font-style: italic;
     text-shadow: 
@@ -144,3 +118,36 @@ footer{
 .artpiece{
     width: 500px;
 }
+
+/*      Store Text     */
+.storecontent{
+    text-align: center;
+}
+#notice{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    font-style: italic;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+/*      Contact Email and Text     */
+.contactcontent{
+    text-align: center;
+}
+#address{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    font-style: italic;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
